@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Google Sans";
+  box-sizing: border-box;
+}
+
+body > h1 {
+  text-align: center;
+  margin-top: 3rem;
+  color: orangered;
+}
+
+h2 {
+  text-align: center;
+  margin: 0 0 3rem 0;
+}
+
+.wrapper-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 22rem);
+  justify-content: center;
+}
+
+.container {
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px #f7de9b;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+  margin: 0.5rem;
+}
+
+.banner-img {
+  background-image: url(https://images.unsplash.com/photo-1582727657635-c771002bdada?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 8rem;
+  width: 100%;
+}
+
+.profile-img {
+  width: 8rem;
+  clip-path: circle(60px at center);
+  margin-top: -5.5rem;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.desc {
+  margin: 1rem 2rem;
+  font-size: 0.9 rem;
+}
+
+.btn {
+  width: 50%;
+  border: none;
+  font-weight: 900;
+  color: white;
+  padding: 0.7rem;
+  background-color: #ffd51c;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+  font-family: "script mt";
+  font-size: 1.2rem;
+  color: #222222;
+}
